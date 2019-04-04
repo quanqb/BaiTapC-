@@ -1,0 +1,27 @@
+﻿<Window x:Class="testForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testForm"
+        mc:Ignorable="d"
+        Title="Tinh Gai Thua" FontSize="30" Height="555" Width="800">
+    <Grid Margin="0,-25,-6.4,-19.2">
+        <Label Content="So N:" Name="lbSoN" HorizontalAlignment="Left" Margin="97,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.085,0.886" Width="133"/>
+        <Label Content="Ket Qua:" Name="lbKQ" HorizontalAlignment="Left" Margin="97,232,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtSoN" HorizontalAlignment="Left" Height="50" Margin="349,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="306"/>
+        <TextBox Name="txtKQ" HorizontalAlignment="Left" Height="50" Margin="349,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="306"/>
+        <Button Content="Giai Thua" Name="btnGT" HorizontalAlignment="Left" Margin="51,422,0,0" VerticalAlignment="Top" Width="137" Click="BtnGT_Click"/>
+        <Button Content="Tong Can" Name="btnTC" HorizontalAlignment="Left" Margin="264,421,0,0" VerticalAlignment="Top" Width="152" Click="BtnTC_Click"/>
+        <Button Content="Tong LT" Name="btnLT" HorizontalAlignment="Left" Margin="142,489,0,0" VerticalAlignment="Top" Width="158" Click="BtnLT_Click"/>
+        <Label Content="Co so:" Name="lbCoso" HorizontalAlignment="Left" Margin="97,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.291,0"/>
+        <TextBox Name="txtCS" HorizontalAlignment="Left" Height="50" Margin="349,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="306"/>
+        <TextBox HorizontalAlignment="Left" Height="57" Margin="599,332,0,0" TextWrapping="Wrap" Name="txtMax" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="57" Margin="244,334,0,0" TextWrapping="Wrap" Name="txtMIN" VerticalAlignment="Top" Width="120"/>
+        <Label Content="MIN" HorizontalAlignment="Left" Margin="108,332,0,0" VerticalAlignment="Top"/>
+        <Label Content="MAX" HorizontalAlignment="Left" Margin="468,334,0,0" VerticalAlignment="Top"/>
+        <Button Content="Lay min" Name="btnMIN" HorizontalAlignment="Left" Margin="525,421,0,0" VerticalAlignment="Top" Width="159" Click="BtnMIN_Click"/>
+        <Button Content="Lay max" Name="btnMAX" HorizontalAlignment="Left" Margin="525,489,0,0" VerticalAlignment="Top" Width="159" Click="BtnMAX_Click" />
+
+    </Grid>
+</Window>
